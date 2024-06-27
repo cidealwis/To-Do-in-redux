@@ -1,0 +1,57 @@
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.terms-text {
+    font-weight: bold; 
+    margin-left: 1px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 30px);
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.line {
+    flex: 1;  
+    height: 1px;  
+    background-color: #ccc;  
+}
+
+.or-text {
+    padding: 0 10px;  
+    margin: 0;  
+    white-space: nowrap;  
+}
+
+.sign-in-link a {
+    text-decoration: none;
+    color: red;
+}

@@ -1,0 +1,64 @@
+.todo-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding: 0.5rem 0;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .todo-item {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
+  .todo-item-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item-index {
+    margin-right: 1rem;
+    color: gray;
+  }
+  
+  .todo-item-text {
+    margin-right: 1rem;
+  }
+  
+  .todo-item-text.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .todo-item-right {
+    display: flex;
+    gap: 0.75rem;
+    margin-left: 2rem;
+  }
+  
+  button {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: white;
+  }
+  
+  .toggle-button {
+    background-color: #3b82f6; /* equivalent to bg-blue-500 */
+  }
+  
+  .remove-button {
+    background-color: #ef4444; /* equivalent to bg-red-500 */
+  }
+  
+  .complete-button {
+    background-color: #10b981; /* equivalent to bg-green-500 */
+  }
+  
+  .incomplete-button {
+    background-color: #f59e0b; /* equivalent to bg-yellow-500 */
+  }
+  
